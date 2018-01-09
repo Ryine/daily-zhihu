@@ -1,21 +1,11 @@
 # daily-zhihu
 
-> A Vue.js project
+> vue版知乎日报单页应用
+##预览
+> [在线地址](http://111.230.131.120)
+未对pc下适配，pc端请在chrome的移动模式下浏览
+##技术栈
+***
+> vue + vue-router + vuex + axios + mint-ui
+ 
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
