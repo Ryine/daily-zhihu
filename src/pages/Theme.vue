@@ -6,7 +6,7 @@
           <ul>
           <li class="news" v-for="item in themeStories" :key="item.id" @click="changeId(item.id)">
               <span class="title">{{item.title}}</span>
-              <img v-show="item.images" :src="item.images">
+              <span class="title-img"><img v-show="item.images" :src="item.images"></span>
           </li>
       </ul>
       </div>

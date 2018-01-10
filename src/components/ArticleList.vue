@@ -5,7 +5,7 @@
           <ul>
               <li v-for="item in stories" :key="item.id" @click="changeId(item.id)" class="news">
                   <span class="title">{{item.title}}</span>
-                  <img :src="item.images[0]">
+                  <span class="title-img"><img :src="item.images[0]"></span>
               </li>
           </ul>
       </div>
@@ -81,10 +81,15 @@ export default {
     color: #333;
     border-bottom: 1px solid rgba(7,17,27,0.1);
 }
-.news img {
+.title-img {
     width: 70px;
     height: 55px;
     margin-right: 15px;
+}
+.news img {
+    width: 70px;
+    height: 55px;
+    
 }
 .title {
     padding: 0 20px 0 10px;
